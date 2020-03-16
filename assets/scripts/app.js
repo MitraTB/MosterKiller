@@ -27,3 +27,7 @@ function strongAttackMonster(){
     const monsterIntenseDamage = dealMonsterDamage (STRONG_ATTACK_VALUE);
     currentMonsterHealth -= monsterIntenseDamage;
 }
+
+
+attackBtn.addEventListener('click', attackMonster);
+strongAttackBtn.addEventListener('click', strongAttackMonster);
